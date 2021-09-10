@@ -1,0 +1,83 @@
+
+:root{
+    --tausta-vari: rgb(0, 204, 255);
+    --kauppa-item-vari: rgb(0, 0, 0);
+}
+
+.ylanakyma{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-size: 50px;
+    background-color:var(--tausta-vari);
+    opacity: 0.5;
+    width: 50%;
+    
+    
+}
+
+.kauppa{
+    position: absolute;
+    top:78%;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80%;
+    height: 20%;
+    background-color: var(--tausta-vari);
+    opacity: 0.3;
+    
+}
+
+.kauppa-item{
+    position: sticky;
+    color: var(--tausta-vari);
+    font-size: 1.2em;
+    text-align: center;
+    width: 7%; 
+    float:right;
+    height:50%;
+     background:var(--kauppa-item-vari);
+     margin:5%;
+     margin-top: 1%;
+    
+}
+
+.kauppa-teksti{
+    margin-top: 30%;
+}
+.kauppa-hinta{
+    margin-top: 45%;
+    font-size: 1.3em;
+    text-align: center;
+    color:yellow
+   
+}
+
+.playerinfo{
+    margin-left: 1%;
+    margin-top: 0.5%;
+    float:left;
+    text-align: left;
+    font-size: 3em;
+}
+
+
+
+body {
+    background-image: url("images/backgrounds/level1.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   }
+
+.kissa{   
+  margin-top: 8%;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 50%;
+}

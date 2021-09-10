@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat-clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="paivitaKaikki()">
+    <script src="script.js"></script>
+
+
+        <section class="ylanakyma" id="ylanakyma" onmouseover="ylaHover()" onmouseleave="ylaNoHover()">
+            <div id="level"></div> <!--level 8 == final level-->
+            <!--kissankuva?--><div id="points"></div>
+            
+        </section>
+    
+    
+        <section class="hahmo">
+            <img class="kissa" id="kissa" src="images/characters/aki.png" alt="kissa" onclick="clickaus()">
+            <!--klikattava hahmo-->
+        </section>
+
+
+
+        <section class="kauppa" id="kauppa" onmouseover="onHover()" onmouseleave="noHover()">            
+
+            <div class="playerinfo">
+            <div id="multiplier">Multiplier: 1x</div>          
+            <div>Autoclickers: X</div>
+            <div>Autoclicker multiplier X</div>
+            </div>
+           
+            <div class="kauppa-item" id="kauppa-item-3" onmouseover="kauppaHover3()"  onmouseleave="noKauppaHover3()">
+                <div class="kauppa-teksti">2X Autoclick</div>
+                <div class="kauppa-hinta" id="2x-auto-hinta"></div>
+             </div> 
+           
+           <div class="kauppa-item" id="kauppa-item-2" onmouseover="kauppaHover2()"  onmouseleave="noKauppaHover2()">
+               <div class="kauppa-teksti">Autoclicker</div> 
+               <div class="kauppa-hinta" id="auto-hinta"></div> 
+            </div>
+
+            <div class="kauppa-item" id="kauppa-item-1" onmouseover="kauppaHover1()"  onmouseleave="noKauppaHover1()" onclick="ostaDouble()">
+                <div class="kauppa-teksti">2X Cats</div>
+                <div class="kauppa-hinta" id="double-hinta"></div>
+            </div>
+
+        </section>
+   
+  
+
+</body>
+</html>
