@@ -97,7 +97,7 @@ function paivitaPisteet(){
 }
 
 function paivitaMultiplier(){
-    document.getElementById("multiplier").innerHTML = "Cats per click: " + pointMultiplier + "x";
+    document.getElementById("multiplier").innerHTML = "Cats per click: " + pointMultiplier;
 }
 
 function paivitaHintaDouble(){
@@ -117,7 +117,7 @@ function paivitaAuto(){
 }
 
 function paivitaAutoMulti(){
-    document.getElementById("auto-multi").innerHTML = "Cats per autoclick: " + autoMultiplier + "x";
+    document.getElementById("auto-multi").innerHTML = "Cats per autoclick: " + autoMultiplier;
 }
 
 
