@@ -42,12 +42,14 @@
      background:var(--kauppa-item-vari);
      margin:5%;
      margin-top: 1%;
-    
 }
 
+
+
 .kauppa-teksti{
-    margin-top: 30%;
+    margin-top: 15%;
 }
+
 .kauppa-hinta{
     margin-top: 45%;
     font-size: 1.3em;
