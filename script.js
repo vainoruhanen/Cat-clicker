@@ -34,7 +34,7 @@ setInterval(function autoclickaus(){
 function toLevel2(){
     document.body.style.backgroundImage = "url('images/backgrounds/level2.jpg')";
     pointMultiplier = pointMultiplier * 10;
-    autoMultiplier = autoMultiplier * 5;
+    autoMultiplier = autoMultiplier * 9;
     level2 = true;
     level = 2;
     paivitaKaikki();
@@ -43,7 +43,7 @@ function toLevel2(){
 function toLevel3(){
     document.body.style.backgroundImage = "url('images/backgrounds/level3.jpg')";
     pointMultiplier = pointMultiplier * 10;
-    autoMultiplier = autoMultiplier * 5;
+    autoMultiplier = autoMultiplier * 9;
     level = 3;
     level3 = true;
 }
@@ -51,7 +51,7 @@ function toLevel3(){
 function toLevel4(){
     document.body.style.backgroundImage = "url('images/backgrounds/level4.jpg')";
     pointMultiplier = pointMultiplier * 10;
-    autoMultiplier = autoMultiplier * 5;
+    autoMultiplier = autoMultiplier * 9;
     level = 4;
     level4 = true;
 }
@@ -59,7 +59,7 @@ function toLevel4(){
 function toLevel5(){
     document.body.style.backgroundImage = "url('images/backgrounds/level5.jpg')";
     pointMultiplier = pointMultiplier * 10;
-    autoMultiplier = autoMultiplier * 5;
+    autoMultiplier = autoMultiplier * 9;
     level = 5;
     level5 = true;
 }
@@ -162,7 +162,7 @@ function ostaAutoMulti(){
     if(points >= doubleAutoHinta){
         points -= doubleAutoHinta;
         autoMultiplier += 1;
-        doubleAutoHinta = doubleAutoHinta * 5;
+        doubleAutoHinta = doubleAutoHinta * 2;
         
     }
     paivitaPisteet();
@@ -171,7 +171,9 @@ function ostaAutoMulti(){
 
 }
 
-if(screen.width > 800){
+
+
+if(screen.width > 1100){
     function onHover(){
         document.getElementById("kauppa").style.opacity = 1;
     }
