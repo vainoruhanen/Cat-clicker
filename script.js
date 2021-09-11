@@ -149,7 +149,7 @@ function ostaAuto(){
     if(points >= autoHinta){
         points -= autoHinta;
         autoclickerCount += 1;
-        autoHinta = autoHinta * 1.3;
+        autoHinta = autoHinta * 1.1;
         autoHinta = Math.round(autoHinta * 10) / 10
     }
     paivitaPisteet();
@@ -162,8 +162,8 @@ function ostaAutoMulti(){
     if(points >= doubleAutoHinta){
         points -= doubleAutoHinta;
         autoMultiplier += 1;
-        doubleAutoHinta = doubleAutoHinta * 2;
-        
+        doubleAutoHinta = doubleAutoHinta * 1.5;
+        doubleAutoHinta = Math.round(doubleAutoHinta * 10) / 10
     }
     paivitaPisteet();
     paivitaHintaAutoDouble();
