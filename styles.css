@@ -34,6 +34,7 @@
 
 
 .kauppa-item{
+    cursor: pointer;
     position: sticky;
     color: var(--tausta-vari);
     font-size: 1.2em;
@@ -71,6 +72,7 @@
 
 
 body {
+    user-select: none;
     background-image: url("images/backgrounds/level1.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
@@ -79,6 +81,7 @@ body {
    }
 
 .kissa{   
+cursor: pointer;
   margin-top: 8%;
   position: absolute;
   transform: translateX(-50%);
